@@ -1,0 +1,114 @@
+<html>
+
+<head>
+	
+	<title>Someone Inspired </title>
+	<meta charset="utf-8" name="viewport" content="width=device-width", initial-scale=1 >
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+	
+<header>
+	<div class="container">
+		<div class="content">
+
+			<div class="box">
+				<div class="logo">
+					<a href="#">Deepak</a>
+				</div>
+				
+
+			</div>	
+			<div class="box">		
+				<div class="nav">
+					<a href="#">Home</a>
+					<a href="#">About</a>
+					<a href="#">Student Stories</a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="login">
+					
+					<a href="#">Login</a>
+				</div>
+			</div>
+			
+				<a href="javascript:void(0)" class="ham-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+			
+		</div>
+	</div>
+
+</header>
+
+
+<section class="home">
+	<div  class="container">
+		<div class="content">
+			<h1>learn the art <br> & business  of <br>  web development</h1>
+			<p>Create a successful and fulfilling career as a freelance web designer. We'll teach <br> you the in-demand skills you need to get there.</p>
+			<div class="btn">
+				<a href="#">Start Learning</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="about">
+	<div class="container">
+		<div class="content">
+			<div class="text">
+				<h1>become a freelance <br>web designer NO <br> MATTER WHERE YOU LIVE</h1>
+			</div>
+			<div class="text-1">
+				<p>You bring the creativity and passion. We teach you the skills <br> you need to succeed as a freelance web designer. It all <br>happens online, no matter where you are.</p>
+			</div>	
+			<div class="img">
+				<img src="image/deepak4.jpg">
+
+			</div>
+
+			<div class="img-video">
+				<img src="image/deepak3.JPG">
+			
+
+			</div>	
+
+			
+		</div>
+
+	</div>
+</section>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	$(".ham-burger, .box .nav a").click(function () {
+				$(".box .nav").toggleClass("open")
+				$(".ham-burger").toggleClass("active");
+			})
+		})
+
+
+
+
+
+</script>
+
+	
+
+
+</body>
+</html>
